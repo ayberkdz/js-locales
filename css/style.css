@@ -1,0 +1,98 @@
+html, body {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(10, 10, 10);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    border-bottom: 1px solid rgb(23, 23, 23);
+}
+
+.logo {
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(110, 231, 183);
+}
+
+.logo:hover {
+    color: rgb(16, 185, 129);
+}
+
+nav ul {
+    list-style-type: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav ul li {
+    font-size: 18px;
+}
+
+nav ul li a {
+    color: rgb(163, 163, 163);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: rgb(250, 250, 250);
+}
+
+.h-other {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.h-other select {
+    font-size: 18px;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid #ccc;
+    border-radius: 2.5em;
+    color: rgb(163, 163, 163);
+}
+
+.h-other select option {
+    background-color: rgb(38,38,38); /* Açılır liste arka planı */
+    color: lightgray; /* Yazı rengi */
+    padding: 10px; /* İç boşluk */
+    font-size: 16px; /* Yazı boyutu */
+    border-radius: 0px;
+    border: 1px solid rgb(23, 23, 23)
+}
+
+.h-other select option:current {
+    background-color: black;
+}
+
+.h-other a {
+    font-size: 18px;
+    color: rgb(163, 163, 163);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+main {
+    width: max-content;
+    padding: 20px;
+    margin: 0 auto;
+    color: white;
+}
+
+main p {
+    color: lightgray;
+}

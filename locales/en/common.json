@@ -1,0 +1,11 @@
+{
+    "link-home": "Home",
+    "link-about": "About",
+    "link-contact": "Contact",
+    "homeTitle": "Welcome to my website!",
+    "homeDescription": "You're on the home page now.",
+    "aboutTitle": "About me",
+    "aboutDescription": "You're on the about page now",
+    "contactTitle": "Contact me",
+    "contactDescription": "You're on the contact page now"
+}

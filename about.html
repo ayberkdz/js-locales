@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anasayfa</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header>
+        <a href="/" class="logo">
+            <h1>js-locales</h1>
+        </a>
+
+
+        <nav>
+            <ul>
+                <li><a href="/" id="link-home"></a></li>
+                <li><a href="/about.html" id="link-about"></a></li>
+                <li><a href="/contact.html" id="link-contact"></a></li>
+            </ul>
+        </nav>
+
+
+        <div class="h-other">
+            <select id="language-select" onchange="t(this.value)">
+                <option value="tr">Türkçe</option>
+                <option value="en">English</option>
+                <option value="ru">Русский</option>
+            </select>
+            <a href="https://github.com/ayberkdz" target="_blank" rel="noopener noreferrer">Github</a>
+        </div>
+    </header>
+
+    <main>
+        <h1 id="aboutTitle"></h1>
+        <p id="aboutDescription"></p>
+    </main>
+
+    <script type="module" src="./js/script.js"></script>
+</body>
+</html>
